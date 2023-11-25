@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background-image: url("./ikonkalar/BG\ Shepes.png");
+    background-size: 100%;
+  }
+  .container{
+    max-width: 1140px;
+    margin:0 auto;
+    background-color: white;
+  }
+  .headasos{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0;
+    margin:0 30px;
+    border-bottom: 1px solid gray;
+    color:gray;
+  }
+  .head2 span{
+    margin-left:12px;
+  }
+  .head2 {
+    font-size: 12px;
+  }
+  .header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin:0 30px; */
+    text-align: left;
+    padding:15px 0;
+    
+  }
+  .header22 input{
+    font-size: 20px;
+  }
+  #search{
+    background-color:#00B207;
+    color:white;
+    padding:5px 15px;
+    border: 1px solid gray;
+    margin-left:-5px;
+    border-radius: 0 5px 5px 0;
+  }
+  #text{
+    border:1px solid gray;
+    padding:5px;
+    border-radius: 5px 0 0 5px;
+  }
+  .header23{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+  .header23 .call {
+    font-size: 40px;
+    padding:0 5px;
+  }
+  .header23 .tel {
+    color: gray;
+    font-size: 14px;
+  }
+  .header23 .tel h3{
+    font-size: 24px;
+  }
+  .menyu{
+    font-size: 18px;
+    background-color: #333333;
+    
+  }
+  .menyu1{
+    width: 75%;
+  }
+.menyu ul li{
+  display: inline-block;
+  color: gray;
+}
+.menyu ul li a{
+  text-decoration: none;
+  color: gray;
+}
+.menyu2{
+  width: 25%;
+  text-align: right;
+}
+.asos{
+  /* max-width: 1140px; */
+  /* margin: 0 auto; */
+  display: flex;
+  padding: 15px 0;
+}
+.active{
+  color: white;
+}
+#active{
+  color: white;
+}
+.blok31{
+background-repeat: no-repeat;
+display: flex;
+/* width:1140px; */
+/* height: 100%; */
+color: white;
+text-align: center;
+margin: 0 auto;
+display: flex;
+}
+.blok_asos{
+  height: 400px;
+  width:70%;
+  background-color: #00B207;
+  background-image: url('ikonkalar/image-removebg-preview.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+button{
+  width: 100px;
+  height: 50px;
+  background-color: #FD8B01;
+border:1px solid #FD8B01;
+border-radius: 4px 4px;
+color: white;
+}
+.asos2 span button{
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  border-radius: 60px 60px 60px;
+  color: #333333;
+}
+.asos2{
+  width: 40%;
+}
+.blok{
+ width: 30%;
+ border: 1px solid #FAC891;
+ background-image: url('ikonkalar/image-removebg-preview\ \(1\).png');
+ 
+}
+.blok h3{
+  color: black;
+  text-align: left; 
+}
+.blok h1{
+  color: black;
+  text-align: center;
+}
+.blok h4{
+  color: gray;
+  text-align: center;
+display: flex;
+}
+.blok span{
+  color: #00B207;
+  text-align: left;
+  align-items: center;
+display: flex;
+/* Menyu start */
+}
+.bg_png{
+ background-image: url("ikonkalar/BG.png");
+  width: 100%;
+background-repeat: no-repeat;
+text-align: center;
+}
+.bg_png p{
+text-align: center;
+padding:10px;
+font-size: 18px;
+}
+.bg_png h1{
+  color:white;
+  padding:10px;
+}
+.shop{
+  display: flex;
+  justify-content: center;
+  padding:20px;
+}
+
+/* Menyu end */
